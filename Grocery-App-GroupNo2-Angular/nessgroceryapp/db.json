@@ -1,0 +1,28 @@
+{
+  "products":[
+  {
+  "id": 1,
+  "name":"tomato",
+  "price": 200,
+  "added_on": "20/05/2021",
+  "category_id": 1,
+  "imgUrl":"https://images-na.ssl-images-amazon.com/images/I/71DYmqoq-VL._AC_SX466_.jpg"
+  },
+  {
+    "id": 2,
+    "name":"potato",
+    "price": 200,
+    "added_on": "20/05/2021",
+    "category_id": 1,
+    "imgUrl":"https://images-na.ssl-images-amazon.com/images/I/71DYmqoq-VL._AC_SX466_.jpg"
+    },
+    {
+      "id": 3,
+      "name":"onion",
+      "price": 200,
+      "added_on": "20/05/2021",
+      "category_id": 1,
+      "imgUrl":"https://images-na.ssl-images-amazon.com/images/I/71DYmqoq-VL._AC_SX466_.jpg"
+      }
+    ]
+  }

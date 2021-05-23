@@ -1,0 +1,97 @@
+.contactform{
+    /* width: 63%;
+    height: 40%; */
+    margin-top: 5%;
+    padding-left: 6%;
+  
+}
+
+ .contact1{
+    display: inline-block;
+    width: 50%;
+    margin-top: 5%;
+    border: 12px ridge #0f2453;
+
+} 
+.contact2{
+    display: inline-block;
+    float: right;
+    width: 50%;
+    padding-left: 14%;
+    margin-top: 2%;
+}
+input,textarea{
+    width: 58%;
+}
+
+
+
+/* 
+h1{
+    font-size: 3em;
+    color: black;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-bottom: 0.2em;
+    text-align: center;
+
+    font-weight: 900;
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+    
+}
+h4{
+    color: #2fdab8;
+    font-size: 1.3em;
+    margin: 20px 0;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#Contactdivtop{
+    width: 60%;
+    height: 70%;
+    padding-bottom: 40px;
+   
+   margin-left: 20%;
+    display: inline-block;
+
+} */
+
+/* input,textarea{
+    
+    
+    float: right;
+}
+label{
+     
+     float: left;
+} */
+ /* #contact_form:hover{
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+.contact-grid-agile-w3 p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 2em;
+} */
+i {
+    color: #fff;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+/* profile page css */
+p {
+    font-family: Lato;
+  }
+  
+  img {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #000;
+    border-radius: 50%;
+  }

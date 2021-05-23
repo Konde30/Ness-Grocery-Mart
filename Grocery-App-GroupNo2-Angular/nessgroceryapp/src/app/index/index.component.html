@@ -1,0 +1,178 @@
+
+
+<div class="banner">
+  <div class="container">
+    <h3>Ness Grocery Mart, <span>Special Offers</span></h3>
+  </div>
+</div>
+
+<!-- Slider-->
+
+
+<div class="card">
+  <div class="auto-slider">
+    <div id="slider">
+      <figure>
+        <img src="/assets/images1/offer/1.jpg" alt="Image">
+        <img src="/assets/images1/offer/2.jpg" alt="Image">
+        <img src="/assets/images1/offer/3.jpg" alt="Image">
+        <img src="/assets/images1/offer/4.jpg" alt="Image">
+      </figure>
+    </div>
+  </div>
+</div>
+
+
+    <h1 style="text-align: center; color: mediumblue; font-weight: bolder; margin-top: 4%;">All Products</h1>
+    <hr class="rounded">
+    <div class="col-md-12 wthree_banner_bottom_right">
+      <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+       
+    
+          <div id="myTabContent"  class="tab-content">
+          <div role="tabpanel"  class="tab-pane fade active in" id="home" aria-labelledby="home-tab">
+            <div   class="agile_ecommerce_tabs">
+              <div  *ngFor="let data of productsList" class="col-md-3 agile_ecommerce_tab_left">
+                <div class="hs-wrapper">
+                  <img  src={{data.image}} alt=" " class="img-responsive" />
+                  <img  src={{data.image}} alt=" " class="img-responsive" />
+                  <img   src={{data.image}} alt=" " class="img-responsive" />
+                  <img   src={{data.image}} alt=" " class="img-responsive" />
+                  <img   src={{data.image}} alt=" " class="img-responsive" />
+                  <img  src={{data.image}} alt=" " class="img-responsive" />
+                  <img   src={{data.image}} alt=" " class="img-responsive" />
+                  <img  src={{data.image}} alt=" " class="img-responsive" /> 
+                  <div class="w3_hs_bottom">
+                  
+                  </div>
+                </div> 
+                <h5><a href="single.html">{{data.name}}</a></h5>
+                <div class="simpleCart_shelfItem">
+                  <p>
+                    <span>{{data.price}}</span> <i class="item_price">{{data.price}}</i>
+                  </p>
+                    <button (click)="addCart(data)" type="submit" class="w3ls-cart">Add to cart</button>
+                </div>
+              </div>
+              <div class="clearfix"> </div>
+            </div>            
+          </div>
+  
+              <div class="clearfix"> </div>
+         
+        </div>
+        
+        </div>
+    </div>
+
+
+<br>
+
+
+<!-- //BAnk offers -->
+
+<hr>
+  <div class="bankslider" style="margin-top: 94%;">
+    <h1 style="text-align: center; color: mediumblue; font-weight: bolder;">Bank offers</h1>
+    <hr class="rounded">
+    <div class="card">
+      <div class="auto-slider">
+        <div id="slider">
+          <figure>
+            <img src="/assets/images1/bank/1.jpg" alt="Image">
+            <img src="/assets/images1/bank/2.jpg" alt="Image">
+            <img src="/assets/images1/bank/3.jpg" alt="Image">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+<!-- footer -->
+<div class="footer">
+  <div class="container">
+    <div class="w3_footer_grids">
+      <div class="col-lg-3 w3_footer_grid">
+        <h3>Contact</h3>
+        <p>Ness Grocery Mart</p>
+        <ul class="address">
+          <li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>No. 33,6th block <span>Kormangala,
+              Bangalore
+              City.</span></li>
+          <li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a
+              href="mailto:pooja.konde@ness.com">ness-mart@gmail.com</a></li>
+          <li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+91 80 4196 1000</li>
+        </ul>
+      </div>
+      <div class="col-lg-3 w3_footer_grid">
+        <h3>Information</h3>
+        <ul class="info">
+          <li><a href="/aboutus">About Us</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+          <li><a href="codes.html">Short Codes</a></li>
+          <li><a href="#">FAQ's</a></li>
+          <li><a href="#">Special Products</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 w3_footer_grid">
+        <h3>Category</h3>
+        <ul class="info">
+          <li><a href="/fruits">Fruits</a></li>
+          <li><a href="/beverages">Bevarages</a></li>
+          <li><a href="/vegetables">Vegetables</a></li>
+          <li><a href="/grocery-staples">Grocery-Staples</a></li>
+          <li><a href="#">Snacks</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 w3_footer_grid">
+        <h3>Profile</h3>
+        <ul class="info">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.">Today's Deals</a></li>
+        </ul>
+        <h4>Follow Us</h4>
+        <div class="agileits_social_button">
+          <ul>
+            <li><a href="#" class="facebook"> </a></li>
+            <li><a href="#" class="twitter"> </a></li>
+            <li><a href="#" class="google"> </a></li>
+            <li><a href="#" class="pinterest"> </a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+  </div>
+  <div class="footer-copy">
+    <div class="footer-copy1">
+      <div class="footer-copy-pos">
+        <a href="#home1" class="scroll"><img src="assets/images/arrow.png" alt=" " class="img-responsive" /></a>
+      </div>
+    </div>
+
+  </div>
+</div>
+<div style="height: 50px; background-color: #ecbf11; text-align: center;">
+  <h5>@all right reserved Ness Grocery Mart
+  </h5>
+</div>
+<!-- //footer -->
+<!-- cart-js -->
+<script src="assets/js/minicart.js"></script>
+<script>
+  w3ls.render();
+
+  w3ls.cart.on('w3sb_checkout', function (evt) {
+    var items, len, i;
+
+    if (this.subtotal() > 0) {
+      items = this.items();
+
+      for (i = 0, len = items.length; i < len; i++) {
+      }
+    }
+  });
+</script>

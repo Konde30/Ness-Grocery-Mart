@@ -1,0 +1,33 @@
+
+
+<h1 style="text-align: center; color: mediumblue; font-weight: bolder;">Snacks</h1>
+<hr class="rounded">
+
+<div class="col-md-12">
+  <div *ngFor="let data of productsList" class="col-md-3 agile_ecommerce_tab_left">
+     <div class="hs-wrapper">
+    
+      <img src={{data.image}} alt=" " class="img-responsive" />
+      <img src={{data.image}} alt=" " class="img-responsive" />
+      <img src={{data.image}} alt=" " class="img-responsive" />
+      <img src={{data.image}} alt=" " class="img-responsive" />
+      <img src={{data.image}} alt=" " class="img-responsive" />
+      <img src={{data.image}} alt=" " class="img-responsive" />
+      <img src={{data.image}} alt=" " class="img-responsive" />
+      <img src={{data.image}} alt=" " class="img-responsive" />
+      <div class="w3_hs_bottom">
+      </div>
+    </div>
+    <h5><a href="single.html">{{data.name}}</a></h5>
+    <div class="simpleCart_shelfItem">
+      <p>
+        <span>{{data.price}}</span> <i class="item_price">{{data.price}}</i>
+      </p>
+      <button (click)="addCart(data)" type="submit" class="w3ls-cart">Add to cart</button>
+    </div>
+  </div>
+</div>
+
+
+
+

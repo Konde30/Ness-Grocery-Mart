@@ -1,0 +1,59 @@
+
+    <div class="container">
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center my-4" style="margin-top: 5%; font-weight: bolder; color: red;">“We’d love to hear from you!” </h2>
+        <!--Section description-->
+        <!-- <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+            a matter of hours to help you.</p> -->
+              
+           
+                 <div class="contact1">
+                    <form class="contactform" action="#" method="post">
+                  
+                    <div class="form-group row">
+                         
+                      <label class="col-sm-2 col-form-label">Email</label>
+                      <input  class="col-sm-10" type="email"  name="email" [(ngModel)]="contact.email"  placeholder="Enter your Email Id">
+                      <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                    </div>
+                    <div class="form-group row">
+                      <label class="col-sm-2 col-form-label">Subject</label>
+                      <input class="col-sm-10" type="email"  name="subject" [(ngModel)]="contact.subject" placeholder="Enter your subject line">
+                      <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                    </div>
+                    <div class="form-group row">
+                      <label class="col-sm-2 col-form-label">message</label>
+                      <textarea class="col-sm-10" type="email" name="message" rows="3" [(ngModel)]="contact.message" placeholder="Enter your message here"></textarea>
+                      <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                    </div>
+
+                    <button type="submit"  (click)="newContact()"  class="btn" style="background-color: #ffce14;font-weight: bold;">Submit</button>
+                  </form>
+              </div>
+            
+                  <div class="contact2">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/images1/logo.jpg" class="card-img-top"  width="200px" alt="...">
+                        <br />
+                        <div class="card-body">
+                          <br />
+                          <h5 class="card-title">Address: Bangalore, India
+                            Ness Technologies (India) Pvt. Ltd.
+                            No. 33, 6th Block,
+                            17th H Main Road
+                            Koramangala,
+                            Bangalore, Karnataka, 560095
+                            +91 80 4196 1000</h5>
+                          <p class="card-text"></p>
+                          <br />
+                          <a routerLink="/aboutus" class="btn btn-primary">Know more</a>
+                        </div>
+                      </div>
+                  </div>
+         
+         </div>    
+   <br>
+         <div style="height: 50px; background-color: #ecbf11; text-align: center; margin-top: 7%;">
+          <h5>@all right reserved Ness Grocery Mart
+          </h5>
+        </div>
