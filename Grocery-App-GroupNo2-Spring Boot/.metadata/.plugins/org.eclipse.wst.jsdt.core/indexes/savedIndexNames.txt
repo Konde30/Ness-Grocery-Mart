@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+C:\Users\P7112772\Desktop\Grocery-Appp-GroupNo2\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1247644051.index
+3208267976.index
+3405814031.index
+462978521.index
+3916548809.index
